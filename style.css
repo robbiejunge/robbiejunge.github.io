@@ -1,5 +1,23 @@
+::selection;{
+	color: #222;
+	background: #FDFC03;
+
+}
+
 h1{
 	font-family: 'helvetica';
-	font-size: 42px;
-	
+	font-size: 72px;
+	text-align: center;
+	-webkit-font-smoothing: anti-aliased;
+	position: relative;
+	padding-top: 20%;
+	color: #FDFC03;
+	-webkit-text-stroke: 2px black;
+	letter-spacing: 2px;
+
+}
+
+div{
+	position: relative;
+
 }
