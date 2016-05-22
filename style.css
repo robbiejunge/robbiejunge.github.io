@@ -1,8 +1,7 @@
-::selection;{
-	color: #222;
-	background: #FDFC03;
-
-}
+::selection {
+	background: black; /* Safari */
+	color: #fff;
+	}
 
 h1{
 	font-family: 'helvetica';
