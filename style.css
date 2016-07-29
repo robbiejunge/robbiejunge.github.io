@@ -151,8 +151,8 @@ body {
 
 @media screen and (max-width:568px) {
   h1{
-  font-size: 21px;
-  line-height: 36px;
+  font-size: 30px;
+  line-height: 40px;
   font-family: 'Arial';
   font-weight: 300;
   color: white;
@@ -163,7 +163,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 h2{
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Arial';
   font-weight: 300;
   color: white;
@@ -171,6 +171,7 @@ h2{
   text-decoration: none;
   display: block;
   padding-right: 6.25%;
+  line-height: 36px;
 }
   #Projects{
   padding-left: 6.25%;
@@ -191,7 +192,22 @@ p{
 h2.back{
   padding-left: 6.25%;
 }
+h1.Projectheadline{
+  padding-top: 6.25%;
+  font-size: 42px;
+line-height: 48px;
+  padding-bottom: 6.25%;
+}
+h1.pullquote{
+  padding-top: 0%;
+  padding-bottom: 6.25%;
+  width: 100%;
+  padding-left: 0%;
+  font-size: 24px;
+  line-height: 30px;
 
+
+}
 
 
 
