@@ -45,8 +45,9 @@ h1.Projectheadline{
 }
 h1.Projectheadline{
   padding-top: 6.25%;
-  font-size: 42px;
-  padding-bottom: 6.25%;
+  font-size: 30px;
+  line-height: 42px;
+  padding-bottom: 10px;
 }
 h1:hover{
   text-decoration: none;
@@ -77,6 +78,9 @@ h1.RecircHeadline{
   padding-bottom: 0%;
   font-style: normal;
 }
+.arrow{
+  color: red;
+}
 
 h2{
   font-size: 18px;
@@ -87,7 +91,9 @@ h2{
   text-decoration: none;
   display: block;
   padding-right: 6.25%;
-  letter-spacing: 0.02em
+  color: white;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 h2:hover{
   text-decoration: underline;
