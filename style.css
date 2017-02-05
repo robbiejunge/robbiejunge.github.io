@@ -217,7 +217,7 @@ body {
   line-height: 32px;
   font-family: 'SuisseIntl-Book-WebM';
   font-weight: 500;
-  color: white;
+  color: black;
   padding-top: 12.5%;
   padding-left: 6.25%;
   padding-bottom: 6.25%;
@@ -228,7 +228,7 @@ h2{
   font-size: 20px;
   font-family: 'SuisseIntl-Book-WebM';
   font-weight: 500;
-  color: white;
+  color: black;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
   display: block;
@@ -243,7 +243,7 @@ h3{
   font-size: 14px;
   font-family: 'SuisseIntl-Book-WebM';
   font-weight: 500;
-  color: white;
+  color: black;
   max-width: 57.14%;
   padding-left: 6.25%;
   -webkit-font-smoothing: antialiased;
@@ -272,7 +272,7 @@ h1.pullquote{
   width: 100%;
   padding-left: 0%;
   font-size: 24px;
-  line-height: 42px;
+  line-height: 32px;
 
 
 }
