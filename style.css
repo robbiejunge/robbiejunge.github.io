@@ -6,8 +6,8 @@
 }
 
 h1{
-	font-size: 72px;
-  line-height: 82px;
+	font-size: 62px;
+  line-height: 72px;
 	font-family: 'SuisseIntl-Book-WebM';
   font-weight: 500;
   color: black;
@@ -67,6 +67,9 @@ h1.pullquote{
   max-width: 1000px;
 
 
+}
+a:visited{
+  color:#bbb;
 }
 .message{
   color:#bbb;
