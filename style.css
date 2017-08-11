@@ -125,7 +125,7 @@ h2{
   text-decoration: none;
 }
 h2:hover{
-  text-decoration: underline;
+  text-decoration: none;
   color: black;
 }
 a{
