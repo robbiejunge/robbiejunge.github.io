@@ -50,8 +50,8 @@ h2:hover{
 p.footertext{
 	padding-top: 500px;
 	padding-left: 6.25%;
-	font-style: italic;
-	font-size: 21px;
+	color: red;
+	font-size: 18px;
 	padding-bottom: 20px;
 }
 
@@ -360,8 +360,7 @@ ul{
 }
 p.footertext{
 	padding-top: 1020px;
-	font-style: italic;
-	font-size: 21px;
+	font-size: 18px;
 	padding-bottom: 20px;
 }
 
