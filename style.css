@@ -358,7 +358,7 @@ ul{
 .card{
 	height: 300px;
 }
-.footertext{
+p.footertext{
 	padding-top: 1020px;
 	font-style: italic;
 	font-size: 21px;
