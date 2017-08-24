@@ -49,6 +49,20 @@ body{
 span{
   color: #888;
 }
+a{
+
+   font-family: 'SuisseIntl-Book-WebM';
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  padding-top: 20px;
+
+}
+a:hover{
+  text-decoration: underline;
+}
 
 
 
@@ -104,6 +118,7 @@ p.footertext{
 	font-size: 18px;
 	padding-bottom: 20px;
 }
+
 
 
 
