@@ -4,7 +4,10 @@
          url('assets/SuisseIntl-Book-WebM.woff2') format('woff2'),
          url('assets/SuisseIntl-Book-WebM.ttf') format('truetype');    
 }
-
+head{;
+  margin: 0
+  padding: 0;
+}
 h1{
 	font-size: 60px;
   line-height: 60px;
@@ -14,19 +17,22 @@ h1{
   -webkit-font-smoothing: antialiased;
   text-decoration:none;
   z-index: 1;
-  padding-top: 20px;
-  max-width: 88.50%;
+  padding-top: 40px;
+  max-width: 64%;
   padding-left: 6.25%;
   letter-spacing: -0.05em;
-  padding-bottom: 12.50%;
+  padding-bottom: 6.25%;
 }
 h2{
    padding-left: 6.25%;
    font-family: 'SuisseIntl-Book-WebM';
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 28px;
+  line-height: 34px;
+}
+h3{
+  padding-left: 6.25%;
 }
 
 img{
@@ -37,32 +43,107 @@ img{
 }
 p{
   padding-left: 6.25%;
-  padding-bottom: 40px;
-  max-width: 520px;
+font-family: 'SuisseIntl-Book-WebM';
+  padding-bottom: 12px;
+  max-width: 640px;
   -webkit-font-smoothing: antialiased;
   font-size: 18px;
-  line-height: 21px;
-}
-body{
-  background-color: #eaeaea;
-}
-span{
+  line-height: 24px;
   color: #888;
 }
+body{
+  background-color: #fff;
+  margin: 0;
+}
+span{
+  font-size: 18px;
+}
+
+
 a{
 
    font-family: 'SuisseIntl-Book-WebM';
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
-  font-size: 14px;
+  
   text-decoration: none;
   color: black;
-  padding-top: 20px;
+  
 
 }
 a:hover{
   text-decoration: underline;
 }
+
+.tag{
+  border-style: solid;
+  border-color: #222;
+  border-width: 1px;
+  max-width: 10%;
+}
+.b{
+  padding-left: 6.25%;
+
+}
+button{
+    outline: 0.5px;
+    background-color: #fff;
+    border-color: #888;
+    border-width: 1px;
+    color: #888;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    
+    font-family: "SuisseIntl-Book-WebM";
+    -webkit-font-smoothing: antialiased;
+  }
+
+nav{
+  position: fixed;
+}
+a.contact{
+  color: #222;
+  text-align: left;
+  
+}
+.btns{
+  padding-left: 6.25%;
+}
+ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: solid;
+    border-color: #eaeaea;
+    border-width: 1px;
+
+    
+    padding: 20px;
+}
+li.contact{
+  display: inline-block;
+  color: #222;
+  font-family: "SuisseIntl-Book-WebM";
+  padding-left: 20px;
+}
+li.logo{
+  float: left;
+}
+.circle {
+  height: 10px;
+  width: 10px;
+  background-color: #222;
+  border-radius: 50%;
+}
+
 
 
 
