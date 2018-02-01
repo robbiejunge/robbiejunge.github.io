@@ -125,7 +125,6 @@ ul{
     border-color: #eaeaea;
     border-width: 1px;
 
-    
     padding: 20px;
 }
 li.contact{
@@ -151,8 +150,8 @@ li.logo{
 
 @media screen and (max-width:720px) {
   h1{
-  font-size: 42px;
-  line-height: 42px;
+  font-size: 24px;
+  line-height: 30px;
   font-family: 'SuisseIntl-Book-WebM';
   font-weight: 500;
   color: black;
@@ -199,7 +198,24 @@ p.footertext{
 	font-size: 18px;
 	padding-bottom: 20px;
 }
+.btns{
+  display: none;
+}
+ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: solid;
+    border-color: #eaeaea;
+    border-width: 1px;
 
+    padding: 25px;
+}
 
 
 
