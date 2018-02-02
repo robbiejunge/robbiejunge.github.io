@@ -27,6 +27,17 @@
     }
   });
 </script>
+<script type="text/javascript">
+	window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
 
 <style type="text/css">
   @font-face {
@@ -35,23 +46,33 @@
   }
 </style>
 </head>
-
+<div>		
+	<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
 	<ul>
-		
-		
-		<li class="contact"><a class="contact">info@robjunge.com</a></li>
-		<li class="contact">(631) 901-4613</li>
-</ul>
+		<li class="projects"><a href="#DD" class="pro">The Daily Dot</a>
+		<li class="projects"><a href="#OB" class="pro">Outback Steakhouse</a>
+		<li class="projects"><a href="#VM" class="pro">Vimeo</a>
+		<li class="projects"><a href="#MP" class="pro">Mixed Parts</a>
+		<li class="projects"><a href="#YL" class="pro">Yule Log</a>
+
+		<li class="contact"><a href="#FT" class="pro">Contact</a></li>
+
 	
+  </div> 
+
+	</ul>
+</div>
 
 
 <body id="b">
+
 
 <div id="Lead">
 
 	<h1>Rob Junge is an independent designer in New York City focused on crafting digital products.</h1>
 
-
+<div id="DD" class="container">
 	<h2>The Daily Dot</h2>
 	
 	<p>The hometown newspaper of the Internet. We laid the groundwork for a complex architecture to house their wide range of content and gave them a completely new look and feel.
@@ -62,35 +83,40 @@
 	<div class="images"><img class="special" src="images/DailyDot_4.png">
 	<div class="images"><img class="special" src="images/DailyDot_5.png">
 
+</div>
 	
+<div id="OB" class="container">
 	<h2><a href="https://www.outback.com/steak/story">Outback Steakhouse ↗</a></h2>
 
 	<p>Outback tasked us with designing an experience that reclaimed themselves as leaders in the world of steak. We answered the challenge with over the top custom content, made specifically for digital.
 <div class="btns"><button>Art Direction</button> <button>User Experience</button> <button>Design</button> <button>Research</button></div>
 	</p>
-	<div class="images"><img class="special" src="images/Outback_1.png">
+		<div class="images"><img class="special" src="images/Outback_3.gif">
+		<div class="images"><img class="special" src="images/Outback_1.png">
 		<div class="images"><img class="special" src="images/Outback_2.png">
-	<div class="images"><img class="special" src="images/Outback_3.gif">
-	<div class="images"><img class="special" src="images/Outback_4.png">
+		<div class="images"><img class="special" src="images/Outback_4.png">
 		<div class="images"><img class="special" src="images/Outback_5.png">
 
-
+</div>
 
 	
 	
 
 
 
-
-	<h2>Vimeo</h2>
+<div id="VM" class="container">
+	<h2 id="VM">Vimeo</h2>
 	
 	<p>At Vimeo as part of an agile product team, I designed features across all platforms. Mobile, Desktop and TV.
 	<div class="btns"><button>Product Design</button> <button>User Experience</button></div>
 	</p>
-	<div class="images"><img class="special" src="images/Vimeo_3.png">
+		<div class="images"><img class="special" src="images/Vimeo_3.png">
 	
 
+</div>
 
+
+<div id="MP" class="container">
 
 	<h2><a href="http://mixed.parts/">Mixed Parts ↗</a></h2>
 	
@@ -102,18 +128,27 @@
 	<div class="images"><img class="special" src="images/MP_3.gif">
 	<div class="images"><img class="special" src="images/MP_Home-cropped.gif">
 	
+</div>
 
-	
+
+<div id="YL" class="container">
 
 	<h2><a href="http://www.watchyulelog.com/">Yule Log ↗</a></h2>
 	
 	<p>Yule Log 2.0 is a collection of short films created by illustrators, animators, directors, and creative coders, bringing the traditional Yule Log into the digital age. Working directly with the creator Daniel Savage, I designed the home for these beautiful animations.<br>
 	<div class="btns"><button>Art Direction</button> <button>Branding</button> <button>Design</button></div>
 	</p>
-	<div class="images"><img class="special" src="images/YL1.png">
-	<div class="images"><img class="special" src="images/YL2.png">
-	<div class="images"><img class="special" src="images/YL3.png">
+		<div class="images"><img class="special" src="images/YL1.png">
+		<div class="images"><img class="special" src="images/YL2.png">
+		<div class="images"><img class="special" src="images/YL3.png">
 
+</div>
+
+<div id="FT" class="footer">
+	<h1 class="footer">info@robjunge.com<br>(631) 901-4613</h1>
+	<h1 class="footer">244 Canal Street 4F<br>New York, NY 10013</h1>
+
+</div>
 
 <!--Archive
 

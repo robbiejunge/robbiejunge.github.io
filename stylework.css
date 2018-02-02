@@ -8,6 +8,14 @@ head{;
   margin: 0
   padding: 0;
 }
+div.container{
+  padding-top: 50px;
+}
+div.footer{
+  background-color: #111;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 h1{
 	font-size: 60px;
   line-height: 60px;
@@ -23,6 +31,10 @@ h1{
   letter-spacing: -0.05em;
   padding-bottom: 6.25%;
 }
+h1.footer{
+  color: #fff;
+  padding-top: 20px;
+}
 h2{
    padding-left: 6.25%;
    font-family: 'SuisseIntl-Book-WebM';
@@ -30,6 +42,7 @@ h2{
   -webkit-font-smoothing: antialiased;
   font-size: 28px;
   line-height: 34px;
+  letter-spacing: -0.8px;
 }
 h3{
   padding-left: 6.25%;
@@ -62,12 +75,12 @@ span{
 
 a{
 
-   font-family: 'SuisseIntl-Book-WebM';
+  font-family: 'SuisseIntl-Book-WebM';
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
-  
   text-decoration: none;
-  color: black;
+  color: #222;
+  
   
 
 }
@@ -92,7 +105,7 @@ button{
     border-width: 1px;
     color: #888;
     padding: 5px 10px;
-    border-radius: 3px;
+    border-radius: 5px;
     text-align: center;
     text-decoration: none;
     font-size: 14px;
@@ -101,13 +114,14 @@ button{
     -webkit-font-smoothing: antialiased;
   }
 
-nav{
-  position: fixed;
-}
+
 a.contact{
-  color: #222;
+  color: #fff;
   text-align: left;
   
+}
+a.pro{
+  color: #fff;
 }
 .btns{
   padding-left: 6.25%;
@@ -120,18 +134,33 @@ ul{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #fff;
-    border-top: solid;
-    border-color: #eaeaea;
-    border-width: 1px;
-
+    background-color: #111;
     padding: 20px;
+    z-index: -100;
+
 }
 li.contact{
   display: inline-block;
-  color: #222;
+  color: #fff;
   font-family: "SuisseIntl-Book-WebM";
   padding-left: 20px;
+  float: right;
+  margin-right: 40px;
+  -webkit-font-smoothing: antialiased;
+}
+li.contact2{
+  margin-right: 0px;
+  float: right;
+  display: inline-block;
+  color: #fff;
+  font-family: "SuisseIntl-Book-WebM";
+  -webkit-font-smoothing: antialiased;
+}
+li.projects{
+  display: inline-block;
+  padding-left: 20px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
 }
 li.logo{
   float: left;
@@ -141,6 +170,39 @@ li.logo{
   width: 10px;
   background-color: #222;
   border-radius: 50%;
+}
+.imgdiv{
+  margin: 0 auto;
+    max-width: 500px;
+    position: fixed;
+    z-index: -1000;
+    mask: 0 auto;
+    display: block;
+    padding-left: 5%;
+    opacity: 20%;
+}
+div.scroll{
+  overflow: auto;
+  white-space: nowrap;
+
+}
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 2px;
+  background: #eaeaea;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 2px;
+  background: #222;
+  width: 0%;
+  z-index: 11;
+  opacity: 10%;
 }
 
 
@@ -159,6 +221,10 @@ li.logo{
   -webkit-font-smoothing: antialiased;
   padding-bottom: 6.25%;
   padding-left: 10px;
+  max-width: 95%;
+}
+h1.footer{
+  padding-top: 6.25%;
 }
 h2{
   font-size: 20px;
@@ -209,12 +275,18 @@ ul{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #fff;
-    border-top: solid;
-    border-color: #eaeaea;
-    border-width: 1px;
-
+    background-color: #111;
     padding: 25px;
+}
+
+li.contact{
+  
+  padding: 5px;
+  font-size: 14px;
+}
+
+li.projects{
+  display: none;
 }
 
 
