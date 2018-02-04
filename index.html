@@ -27,6 +27,17 @@
     }
   });
 </script>
+<script type="text/javascript">
+	window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
 
 <style type="text/css">
   @font-face {
@@ -35,84 +46,163 @@
   }
 </style>
 </head>
-<div class="imgdiv">
-<img src="images/10frames.gif">
+<div>		
+	<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+	<ul>
+		<li class="projects"><a href="#DD" class="pro">The Daily Dot</a>
+		<li class="projects"><a href="#OB" class="pro">Outback Steakhouse</a>
+		<li class="projects"><a href="#VM" class="pro">Vimeo</a>
+		<li class="projects"><a href="#MP" class="pro">Mixed Parts</a>
+		<li class="projects"><a href="#YL" class="pro">Yule Log</a>
+		<li class="projects"><a href="#NN" class="pro">Not NY</a>
 
+		<li class="contact"><a href="#FT" class="pro">Contact</a></li>
+
+	
+  </div> 
+
+	</ul>
 </div>
 
 
 <body id="b">
 
+
 <div id="Lead">
 
-	<h1 class="Intro">Rob Junge is an independent designer in New York City focused on crafting digital products.</h1>
-	  <!--< <p class="subtext">He has experience with early stage businesses along with established brands, most recently as a Product Designer for Vimeo.<span> Available now for select projects.</span></p>
-	<!--<p class="alert">Available now for select projects</p>-->
+	<h1>Rob Junge is an independent designer in New York City focused on crafting digital products.</h1>
 
- </div>
- 
-  <!--<div class="alert"><h4>Available now for select projects.</h4></div> -->
- 
- 
-
-
-<div class="container">
+<div id="DD" class="container">
+	<h2>The Daily Dot</h2>
 	
-		<div class="card">
+	<p>The hometown newspaper of the Internet. We laid the groundwork for a complex architecture to house their wide range of content and gave them a completely new look and feel.
+	<!--Tags
+	<div class="btns"><button>Art Direction</button> <button>User Experience</button> <button>Design</button></div>
+-->
+	</p>
+	<div class="images"><img class="special" src="images/DailyDot_1.png">
+	<div class="images"><img class="special" src="images/DailyDot_3.png">
+	<div class="images"><img class="special" src="images/DailyDot_2.png">
+	<div class="images"><img class="special" src="images/DailyDot_4.png">
 
-
-	  		
-	  			<ul>
-	  				<!-- <div class="circle"></div> -->
-
-	  				<h2 class="title">Services</h2>
-	    			
-				    <li>Product Design</li>
-				    <li>User Experience</li>
-				    <li>Art Direction</li>
-				    <li>Branding</li>
-				    <li>Research</li>
-				    <li>Strategy</li>
-	  			</ul>
-	  </div>
-	  
-		<div class="card">
-	  		
-			   <ul>
-			   	<!-- <div class="square"></div> -->
-			   		<h2 class="title">Clients</h2>
-				    <li>Vimeo</li>
-				    <li>Outback</li>
-				    <li>The Daily Dot</li>
-				    <li>Casper</li>
-				    <li>Bulova</li>
-				    <li>Conde Nast</li>
-			  </ul>
-		</div>
-
-	<div class="card">
-  		
-		  <ul>
-		  <!-- <div class="triangle"></div> -->
-		  		<h2 class="title">Contact</h2>
-			  <li> <a href="mailto:info@robjunge.com">info@robjunge.com</a></li>
-			  <li><a href="https://twitter.com/RobbieJunge">@robjunge</a></li>
-		  </ul>
+</div>
 	
+<div id="OB" class="container">
+	<h2><a href="https://www.outback.com/steak/story">Outback Steakhouse ↗</a></h2>
+
+	<p>Outback tasked us with designing an experience that reclaimed themselves as leaders in the world of steak. We answered the challenge with over the top custom content, made specifically for digital.
+		<!--Tags
+<div class="btns"><button>Art Direction</button> <button>User Experience</button> <button>Design</button> <button>Research</button></div>
+-->
+	</p>
+
+		<div class="images"><img class="special" src="images/Outback_3.gif">
+		<div class="images"><img class="special" src="images/Outback_1.png">
+		<div class="images"><img class="special" src="images/Outback_2.png">
+		<div class="images"><img class="special" src="images/Outback_4.png">
+		<div class="images"><img class="special" src="images/Outback_5.png">
+
+</div>
+
+	
+	
+
+
+
+<div id="VM" class="container">
+	<h2 id="VM">Vimeo</h2>
+	
+	<p>At Vimeo as part of an agile product team, I designed features across all platforms. Mobile, Desktop and TV.
+
+		<!--Tags
+	<div class="btns"><button>Product Design</button> <button>User Experience</button></div>
+-->
+	</p>
+		<div class="images"><img class="special" src="images/Vimeo_3.png">
+		<div class="images"><img class="special" src="images/Vimeo_4.gif">
+	
+
+</div>
+
+
+<div id="MP" class="container">
+
+	<h2><a href="http://mixed.parts/">Mixed Parts ↗</a></h2>
+	
+	<p>Mixed.parts is an online community for animators to share and discuss what's happening in their industry. Working closely with founder Daniel Savage, I designed an experience that makes it easy to browse content, contribute to the discussions & make new posts.<br> 
+		<!--Tags
+	<div class="btns"><button>Art Direction</button> <button>Branding</button> <button>Design</button></div>
+-->
+</p>
+	<div class="images"><img class="special" src="images/MP_1.png">
+	<div class="images"><img class="special" src="images/MP_2.png">
+	<div class="images"><img class="special" src="images/MP_3.gif">
+
+	<div class="images"><img class="special" src="images/MP_Home-cropped.gif">
+	
+</div>
+
+
+<div id="YL" class="container">
+
+	<h2><a href="http://www.watchyulelog.com/">Yule Log ↗</a></h2>
+	
+	<p>Yule Log 2.0 is a collection of short films created by illustrators, animators, directors, and creative coders, bringing the traditional Yule Log into the digital age. Working directly with the creator Daniel Savage, I designed the home for these beautiful animations.<br>
+		<!--Tags
+	<div class="btns"><button>Art Direction</button> <button>Branding</button> <button>Design</button></div>
+-->
+	</p>
+		<div class="images"><img class="special" src="images/YL1.png">
+		<div class="images"><img class="special" src="images/YL2.png">
+		<div class="images"><img class="special" src="images/YL3.png">
+
+</div>
+
+<div id="NN" class="container">
+
+	<h2><a href="http://notny.smvi.co">Not New York ↗</a></h2>
+	
+	<p>Not NY is a stream of consciousness. It’s an attempt to explore new aesthetics and break out of my comfort zone.<br>
+		<!--Tags
+	<div class="btns"><button>Art Direction</button> <button>Branding</button> <button>Design</button></div>
+-->
+	</p>
+		<div class="images"><img class="special" src="images/NN_1.png">
+		<div class="images"><img class="special" src="images/NN_2.png">
+
+</div>
+
+<div id="FT" class="footer">
+	<h1 class="footer">info@robjunge.com<br>(631) 901-4613</h1>
+	<h1 class="footer">244 Canal Street 4F<br>New York, NY 10013</h1>
+
+</div>
+
+<!--Archive
+
+
+
+	<h2>Not NY<br><span>Art</span></h2>
+	<p>Not NY is a stream of consciousness. It’s an attempt to explore new aesthetics and break out of my comfort zone. <br><a href="http://notny.smvi.co/"> Visit the site ↗</a></p>
+	<div class="images"><img class="special" src="images/Day_9w.gif">
+	<div class="images"><img class="special" src="images/Day_9d.gif">
+	<div class="images"><img class="special" src="images/Day_9v.gif">
+
+
+	<h2>2017 Calendar<br><span>Print</span></h2>
+	<p>The concept for this calendar was pure simplicity. It's meant to be unobtrusive & reserved while still being beautiful & clear. Mark it up as you see fit and make it your own. </p>
+	<div class="images"><img class="special" src="images/2017_calendar_1.jpg">
+	<div class="images"><img class="special" src="images/2017_calendar_2.jpg">
+	-->
 
 	</div>
 
  </div>
 
-  <div class="footer">
-  <p class="footertext">Please reach out for resume or work samples.</p>
-
- 
- 		
+ <div>
  	
  </div>
-
-
-
-
+ 
+ 
  </body>
